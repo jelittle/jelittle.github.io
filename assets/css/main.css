@@ -11,6 +11,7 @@
   --link: #0076df;
   --link-hover: #00369f;
   --icon: #424242;
+  --accent-red: #c62828;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --container: 900px;
@@ -25,6 +26,7 @@
     --link: #2698ba;
     --link-hover: #7ccce4;
     --icon: #cfcfcf;
+    --accent-red: #ff7b72;
   }
 }
 
@@ -264,6 +266,11 @@ section {
   color: var(--muted);
   font-size: 0.98rem;
   margin-bottom: 0.5rem;
+}
+
+.pub-award {
+  color: var(--accent-red);
+  font-weight: 600;
 }
 
 .pub-links {
