@@ -1,4 +1,5 @@
-# Local copy of the CV source; the served copy lives in assets/pdf/cv.pdf
+# Local copies of source media; the web-sized versions live under assets/
 Joshua_Little___CV*.pdf
+IMG_*.jpeg
 
 .DS_Store

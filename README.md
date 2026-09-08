@@ -31,8 +31,9 @@ add directories starting with an underscore.
 
 Placeholders are marked with `<!-- TODO -->` comments:
 
-- **Profile** — swap `assets/img/prof_pic.svg` for a real `prof_pic.jpg` (square
-  crop, ~400×400) and update the `src` in `index.html`.
+- **Profile** — `assets/img/prof_pic.jpg` (square, 800×800, EXIF stripped).
+  Regenerate from a source photo with:
+  `magick SRC.jpeg -crop WxH+X+Y +repage -resize 800x800 -strip -quality 88 assets/img/prof_pic.jpg`
 - **Social links** — the `.profile-social` block in `index.html`. To add a
   Google Scholar icon, re-add the academicons stylesheet to `<head>` and use
   `<i class="ai ai-google-scholar"></i>`.
