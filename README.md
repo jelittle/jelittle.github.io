@@ -37,7 +37,7 @@ Placeholders are marked with `<!-- TODO -->` comments:
 - **Social links** — the `.profile-social` block in `index.html`. To add a
   Google Scholar icon, re-add the academicons stylesheet to `<head>` and use
   `<i class="ai ai-google-scholar"></i>`.
-- **Bio** — the three paragraphs in `.about-content`.
+- **Bio** — the paragraphs in `.about-content`.
 - **News** — copy a `<li class="news-item">` block; newest first.
 - **Publications** — copy a `<li>` from `.bibliography` in either page. Drop
   unneeded `.pub-link` chips (project / pdf / code / bibtex), and put teaser
